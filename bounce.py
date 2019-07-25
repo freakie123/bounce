@@ -4,17 +4,24 @@ import time
 import random
 import sys
 
+
 # defining variables 
 root = Tk()
 root.title("Bounce")
 root.geometry("500x570")
 root.resizable(0, 0)
 root.wm_attributes("-topmost", 1)
-canvas = Canvas(root, width=500, height=500, bd=0, highlightthickness=0, highlightbackground="Red", bg="Black")
+canvas = Canvas(root, width=500, height=500, bd=0, highlightthickness=0, highlightbackground="Red", bg="Gray")
 canvas.pack(padx=10, pady=10)
 score = Label(height=50, width=80, text="Score: 00", font="Consolas 14 bold")
 score.pack(side="left")
 root.update()
+
+
+
+
+
+
 
 
 
